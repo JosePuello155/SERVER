@@ -1,1 +1,67 @@
-{}
+{
+  "usuarios": [
+    {
+      "id": "39f3",
+      "nombre": "Jose",
+      "correo": "josedanipuello@gmail.com",
+      "contraseña": "1234"
+    },
+    {
+      "id": "ef5c",
+      "nombre": "Jose Luis",
+      "correo": "elpro@gmail.com",
+      "contraseña": "1234"
+    },
+    {
+      "id": "528d",
+      "nombre": "Karim",
+      "correo": "karim@gmail.com",
+      "contraseña": "12345"
+    },
+    {
+      "id": "20ce",
+      "nombre": "Marin",
+      "correo": "syuhjadsk@gmail.com",
+      "contraseña": "aaaa"
+    },
+    {
+      "id": "baba",
+      "nombre": "Marin",
+      "correo": "syuhjadsks@gmail.com",
+      "contraseña": "1234"
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "admin"
+    },
+    {
+      "id": "2",
+      "name": "emple"
+    }
+  ],
+  "clientes": [
+    {
+      "id": "19897556",
+      "nombre": "Jose Daniel",
+      "telefono": "111111",
+      "direccion": "piedecuesta",
+      "email": "jose@gmail.com"
+    }
+  ],
+  "productos": [
+    {
+      "codigo": "1001",
+      "nombre": "Caja de lapiceros x12 KORES",
+      "precio": "3000000",
+      "stock": "20",
+      "id": "1"
+    }
+  ],
+  "proveedores": [
+    {
+      "id": "e6db"
+    }
+  ]
+}
