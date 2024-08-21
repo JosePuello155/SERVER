@@ -23,6 +23,12 @@
       "nombre": "Jose",
       "correo": "asdas@gmail.com",
       "contraseña": "asdsa"
+    },
+    {
+      "id": "ee77",
+      "nombre": "Jhon",
+      "correo": "jhon@gmail.com",
+      "contraseña": "4567"
     }
   ],
   "roles": [
@@ -37,12 +43,12 @@
   ],
   "clientes": [
     {
-      "id": "29be",
       "document": "74185296",
       "name": "asdfgh",
-      "number": "741852963",
+      "number": "741852965",
       "addres": "bucaramanga",
-      "email": "josedanipuello@gmail.com"
+      "email": "josedanipuello@gmail.com",
+      "id": "29be"
     },
     {
       "id": "3948",
@@ -104,14 +110,6 @@
     }
   ],
   "proveedores": [
-    {
-      "id": "5f4f",
-      "document": "74815",
-      "name": "Papeleria mayorista",
-      "number": "41526",
-      "addres": "Piedecuesta",
-      "email": "papeleria@gmail.com"
-    },
     {
       "id": "bb3f",
       "document": "15185",
