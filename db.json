@@ -7,38 +7,16 @@
       "contraseña": "1234"
     },
     {
-      "id": "6fbc",
-      "nombre": "Jose",
+      "id": "e286",
+      "nombre": "karim",
       "correo": "karim@gmail.com",
+      "contraseña": "123"
+    },
+    {
+      "id": "0649",
+      "nombre": "Samuel",
+      "correo": "samuel@gmail.com",
       "contraseña": "1234"
-    },
-    {
-      "id": "9d56",
-      "nombre": "Marin",
-      "correo": "marin@gmail.com",
-      "contraseña": "1234"
-    },
-    {
-      "id": "b47d",
-      "nombre": "Jose",
-      "correo": "asdas@gmail.com",
-      "contraseña": "asdsa"
-    },
-    {
-      "id": "ee77",
-      "nombre": "Jhon",
-      "correo": "jhon@gmail.com",
-      "contraseña": "4567"
-    }
-  ],
-  "roles": [
-    {
-      "id": "1",
-      "name": "admin"
-    },
-    {
-      "id": "2",
-      "name": "emple"
     }
   ],
   "clientes": [
@@ -46,7 +24,7 @@
       "document": "74185296",
       "name": "asdfgh",
       "number": "741852965",
-      "addres": "bucaramanga",
+      "addres": "bucaramango",
       "email": "josedanipuello@gmail.com",
       "id": "29be"
     },
@@ -57,16 +35,48 @@
       "number": "3118549874",
       "addres": "bucaramanga",
       "email": "jhon@gmail.com"
+    },
+    {
+      "id": "6fe3",
+      "document": "1096089687",
+      "name": "Samuel",
+      "number": "3001850812",
+      "addres": "Poblado-Girón",
+      "email": "samu"
+    },
+    {
+      "id": "9cba",
+      "document": "74185296",
+      "name": "Marin",
+      "number": "74852963",
+      "addres": "bucaramanga",
+      "email": "jose"
+    },
+    {
+      "id": "597b",
+      "document": "789456123",
+      "name": "qwertyuiop",
+      "number": "3188148151",
+      "addres": "Girón",
+      "email": "samu@gmail.com"
+    },
+    {
+      "id": "7489",
+      "document": "741852963",
+      "name": "dsfghjj",
+      "number": "3188148151",
+      "addres": "Girón",
+      "email": "samu@gmail.com"
     }
   ],
   "productos": [
     {
-      "id": "deb3",
       "codigo": "1001",
       "name": "CAJA DE LAPICEROS X12",
-      "stock": 93,
+      "stock": "100",
       "precio": "100000",
-      "proveedor": "5f4f"
+      "proveedor": "bb3f",
+      "id": "deb3"
     },
     {
       "id": "2eec",
@@ -96,7 +106,7 @@
       "id": "e691",
       "codigo": "1005",
       "name": "LAPIZ NEGRO N2 PAPER MATE DISPLAY X 12 UND",
-      "stock": "50",
+      "stock": 48,
       "precio": "8000",
       "proveedor": "bb3f"
     },
@@ -107,6 +117,14 @@
       "stock": "50",
       "precio": "300000",
       "proveedor": "ba7a"
+    },
+    {
+      "id": "c4f3",
+      "codigo": "1007",
+      "name": "CAJA DE CORRECTORES x 12",
+      "stock": 95,
+      "precio": "14000",
+      "proveedor": "c670"
     }
   ],
   "proveedores": [
@@ -125,6 +143,14 @@
       "number": "3185848796",
       "addres": "bucaramanga",
       "email": "eltwist@gmail.com"
+    },
+    {
+      "document": "4815792",
+      "name": "La mayorista",
+      "number": "3188148151",
+      "addres": "Girón",
+      "email": "lamayorista@gmail.com",
+      "id": "c670"
     }
   ],
   "pedidos": [
@@ -180,6 +206,39 @@
         }
       ],
       "totalPago": 100000
+    },
+    {
+      "id": "ae97",
+      "productos": [
+        {
+          "codigo": "1005",
+          "descripcion": "LAPIZ NEGRO N2 PAPER MATE DISPLAY X 12 UND",
+          "cantidad": 2,
+          "precio": 8000,
+          "total": 16000
+        },
+        {
+          "codigo": "1007",
+          "descripcion": "CAJA DE CORRECTORES x 12",
+          "cantidad": 5,
+          "precio": 14000,
+          "total": 70000
+        }
+      ],
+      "totalPago": 86000
+    },
+    {
+      "id": "e0df",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 95,
+          "precio": 100000,
+          "total": 9500000
+        }
+      ],
+      "totalPago": 9500000
     }
   ],
   "ventas": [
@@ -235,6 +294,39 @@
         }
       ],
       "totalPago": 100000
+    },
+    {
+      "id": "d072",
+      "productos": [
+        {
+          "codigo": "1005",
+          "descripcion": "LAPIZ NEGRO N2 PAPER MATE DISPLAY X 12 UND",
+          "cantidad": 2,
+          "precio": 8000,
+          "total": 16000
+        },
+        {
+          "codigo": "1007",
+          "descripcion": "CAJA DE CORRECTORES x 12",
+          "cantidad": 5,
+          "precio": 14000,
+          "total": 70000
+        }
+      ],
+      "totalPago": 86000
+    },
+    {
+      "id": "c14c",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 95,
+          "precio": 100000,
+          "total": 9500000
+        }
+      ],
+      "totalPago": 9500000
     }
   ]
 }
