@@ -7,28 +7,22 @@
       "contraseña": "1234"
     },
     {
-      "id": "ef5c",
-      "nombre": "Jose Luis",
-      "correo": "elpro@gmail.com",
-      "contraseña": "1234"
-    },
-    {
-      "id": "528d",
-      "nombre": "Karim",
+      "id": "6fbc",
+      "nombre": "Jose",
       "correo": "karim@gmail.com",
-      "contraseña": "12345"
-    },
-    {
-      "id": "20ce",
-      "nombre": "Marin",
-      "correo": "syuhjadsk@gmail.com",
-      "contraseña": "aaaa"
-    },
-    {
-      "id": "baba",
-      "nombre": "Marin",
-      "correo": "syuhjadsks@gmail.com",
       "contraseña": "1234"
+    },
+    {
+      "id": "9d56",
+      "nombre": "Marin",
+      "correo": "marin@gmail.com",
+      "contraseña": "1234"
+    },
+    {
+      "id": "b47d",
+      "nombre": "Jose",
+      "correo": "asdas@gmail.com",
+      "contraseña": "asdsa"
     }
   ],
   "roles": [
@@ -43,25 +37,206 @@
   ],
   "clientes": [
     {
-      "id": "19897556",
-      "nombre": "Jose Daniel",
-      "telefono": "111111",
-      "direccion": "piedecuesta",
-      "email": "jose@gmail.com"
+      "id": "29be",
+      "document": "74185296",
+      "name": "asdfgh",
+      "number": "741852963",
+      "addres": "bucaramanga",
+      "email": "josedanipuello@gmail.com"
+    },
+    {
+      "id": "3948",
+      "document": "1096065310",
+      "name": "Jhon",
+      "number": "3118549874",
+      "addres": "bucaramanga",
+      "email": "jhon@gmail.com"
     }
   ],
   "productos": [
     {
+      "id": "deb3",
       "codigo": "1001",
-      "nombre": "Caja de lapiceros x12 KORES",
-      "precio": "3000000",
-      "stock": "20",
-      "id": "1"
+      "name": "CAJA DE LAPICEROS X12",
+      "stock": 93,
+      "precio": "100000",
+      "proveedor": "5f4f"
+    },
+    {
+      "id": "2eec",
+      "codigo": "1002",
+      "name": "CAJA DE LAPICEROS X12 KORES",
+      "stock": 79,
+      "precio": "100000",
+      "proveedor": "5f4f"
+    },
+    {
+      "id": "aafc",
+      "codigo": "1003",
+      "name": "Bolígrafos - Lapiceros Kilométrico Inkjoy Caja X 12- Negro",
+      "stock": "50",
+      "precio": "14900",
+      "proveedor": "ba7a"
+    },
+    {
+      "id": "3b9d",
+      "codigo": "1004",
+      "name": "LAPIZ NEGRO PRESTO NO2 azul X 12 FABER",
+      "stock": "50",
+      "precio": "10650",
+      "proveedor": "5f4f"
+    },
+    {
+      "id": "e691",
+      "codigo": "1005",
+      "name": "LAPIZ NEGRO N2 PAPER MATE DISPLAY X 12 UND",
+      "stock": "50",
+      "precio": "8000",
+      "proveedor": "bb3f"
+    },
+    {
+      "id": "6d6a",
+      "codigo": "1006",
+      "name": "Caja De 90 Cuadernos Cosidos 100 Hojas Paca",
+      "stock": "50",
+      "precio": "300000",
+      "proveedor": "ba7a"
     }
   ],
   "proveedores": [
     {
-      "id": "e6db"
+      "id": "5f4f",
+      "document": "74815",
+      "name": "Papeleria mayorista",
+      "number": "41526",
+      "addres": "Piedecuesta",
+      "email": "papeleria@gmail.com"
+    },
+    {
+      "id": "bb3f",
+      "document": "15185",
+      "name": "Papeleria SUESCUN",
+      "number": "3183484510",
+      "addres": "bucaramanga",
+      "email": "suescun@gmail.com"
+    },
+    {
+      "id": "ba7a",
+      "document": "87414",
+      "name": "Distribuciones Papelerias EL TWIST",
+      "number": "3185848796",
+      "addres": "bucaramanga",
+      "email": "eltwist@gmail.com"
+    }
+  ],
+  "pedidos": [
+    {
+      "id": "a2cc",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "undefined",
+          "cantidad": 1,
+          "precio": 100000,
+          "total": 100000
+        },
+        {
+          "codigo": "1002",
+          "descripcion": "undefined",
+          "cantidad": 1,
+          "precio": 100000,
+          "total": 100000
+        }
+      ],
+      "totalPago": 200000
+    },
+    {
+      "id": "0dab",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "undefined",
+          "cantidad": 5,
+          "precio": 100000,
+          "total": 500000
+        },
+        {
+          "codigo": "1002",
+          "descripcion": "undefined",
+          "cantidad": 20,
+          "precio": 100000,
+          "total": 2000000
+        }
+      ],
+      "totalPago": 2500000
+    },
+    {
+      "id": "a46e",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 1,
+          "precio": 100000,
+          "total": 100000
+        }
+      ],
+      "totalPago": 100000
+    }
+  ],
+  "ventas": [
+    {
+      "id": "cbdb",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "undefined",
+          "cantidad": 1,
+          "precio": 100000,
+          "total": 100000
+        },
+        {
+          "codigo": "1002",
+          "descripcion": "undefined",
+          "cantidad": 1,
+          "precio": 100000,
+          "total": 100000
+        }
+      ],
+      "totalPago": 200000
+    },
+    {
+      "id": "8fa1",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "undefined",
+          "cantidad": 5,
+          "precio": 100000,
+          "total": 500000
+        },
+        {
+          "codigo": "1002",
+          "descripcion": "undefined",
+          "cantidad": 20,
+          "precio": 100000,
+          "total": 2000000
+        }
+      ],
+      "totalPago": 2500000
+    },
+    {
+      "id": "d0b4",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 1,
+          "precio": 100000,
+          "total": 100000
+        }
+      ],
+      "totalPago": 100000
     }
   ]
 }
