@@ -73,42 +73,26 @@
     {
       "codigo": "1001",
       "name": "CAJA DE LAPICEROS X12",
-      "stock": "100",
+      "stock": "50",
       "precio": "100000",
       "proveedor": "bb3f",
       "id": "deb3"
     },
     {
-      "id": "2eec",
-      "codigo": "1002",
-      "name": "CAJA DE LAPICEROS X12 KORES",
-      "stock": 79,
-      "precio": "100000",
-      "proveedor": "5f4f"
-    },
-    {
-      "id": "aafc",
       "codigo": "1003",
       "name": "Bolígrafos - Lapiceros Kilométrico Inkjoy Caja X 12- Negro",
       "stock": "50",
       "precio": "14900",
-      "proveedor": "ba7a"
+      "proveedor": "c670",
+      "id": "aafc"
     },
     {
-      "id": "3b9d",
-      "codigo": "1004",
-      "name": "LAPIZ NEGRO PRESTO NO2 azul X 12 FABER",
-      "stock": "50",
-      "precio": "10650",
-      "proveedor": "5f4f"
-    },
-    {
-      "id": "e691",
       "codigo": "1005",
       "name": "LAPIZ NEGRO N2 PAPER MATE DISPLAY X 12 UND",
-      "stock": 48,
+      "stock": "50",
       "precio": "8000",
-      "proveedor": "bb3f"
+      "proveedor": "bb3f",
+      "id": "e691"
     },
     {
       "id": "6d6a",
@@ -119,12 +103,12 @@
       "proveedor": "ba7a"
     },
     {
-      "id": "c4f3",
       "codigo": "1007",
       "name": "CAJA DE CORRECTORES x 12",
-      "stock": 95,
+      "stock": "50",
       "precio": "14000",
-      "proveedor": "c670"
+      "proveedor": "ba7a",
+      "id": "c4f3"
     }
   ],
   "proveedores": [
@@ -154,46 +138,6 @@
     }
   ],
   "pedidos": [
-    {
-      "id": "a2cc",
-      "productos": [
-        {
-          "codigo": "1001",
-          "descripcion": "undefined",
-          "cantidad": 1,
-          "precio": 100000,
-          "total": 100000
-        },
-        {
-          "codigo": "1002",
-          "descripcion": "undefined",
-          "cantidad": 1,
-          "precio": 100000,
-          "total": 100000
-        }
-      ],
-      "totalPago": 200000
-    },
-    {
-      "id": "0dab",
-      "productos": [
-        {
-          "codigo": "1001",
-          "descripcion": "undefined",
-          "cantidad": 5,
-          "precio": 100000,
-          "total": 500000
-        },
-        {
-          "codigo": "1002",
-          "descripcion": "undefined",
-          "cantidad": 20,
-          "precio": 100000,
-          "total": 2000000
-        }
-      ],
-      "totalPago": 2500000
-    },
     {
       "id": "a46e",
       "productos": [
@@ -239,6 +183,163 @@
         }
       ],
       "totalPago": 9500000
+    },
+    {
+      "id": "cdd1",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 1,
+          "precio": 100000,
+          "total": 100000
+        }
+      ],
+      "totalPago": 100000
+    },
+    {
+      "id": "85d5",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 5,
+          "precio": 100000,
+          "total": 500000
+        }
+      ],
+      "totalPago": 500000
+    },
+    {
+      "id": "df77",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 50,
+          "precio": 100000,
+          "total": 5000000
+        },
+        {
+          "codigo": "1003",
+          "descripcion": "Bolígrafos - Lapiceros Kilométrico Inkjoy Caja X 12- Negro",
+          "cantidad": 20,
+          "precio": 14900,
+          "total": 298000
+        },
+        {
+          "codigo": "1005",
+          "descripcion": "LAPIZ NEGRO N2 PAPER MATE DISPLAY X 12 UND",
+          "cantidad": 10,
+          "precio": 8000,
+          "total": 80000
+        }
+      ],
+      "totalPago": 5378000
+    },
+    {
+      "id": "e150",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 1,
+          "precio": 100000,
+          "total": 100000
+        }
+      ],
+      "totalPago": 100000
+    },
+    {
+      "id": "c77d",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 1,
+          "precio": 100000,
+          "total": 100000
+        }
+      ],
+      "totalPago": 100000
+    },
+    {
+      "id": "dc8c",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 1,
+          "precio": 100000,
+          "total": 100000
+        }
+      ],
+      "totalPago": 100000
+    },
+    {
+      "id": "ad9c",
+      "productos": [
+        {
+          "codigo": "1003",
+          "descripcion": "Bolígrafos - Lapiceros Kilométrico Inkjoy Caja X 12- Negro",
+          "cantidad": 2,
+          "precio": 14900,
+          "total": 29800
+        }
+      ],
+      "totalPago": 29800
+    },
+    {
+      "id": "323e",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 1,
+          "precio": 100000,
+          "total": 100000
+        }
+      ],
+      "totalPago": 100000
+    },
+    {
+      "id": "b517",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 1,
+          "precio": 100000,
+          "total": 100000
+        }
+      ],
+      "totalPago": 100000
+    },
+    {
+      "id": "a6f8",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 1,
+          "precio": 100000,
+          "total": 100000
+        }
+      ],
+      "totalPago": 100000
+    },
+    {
+      "id": "71a5",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 1,
+          "precio": 100000,
+          "total": 100000
+        }
+      ],
+      "totalPago": 100000
     }
   ],
   "ventas": [
@@ -327,6 +428,163 @@
         }
       ],
       "totalPago": 9500000
+    },
+    {
+      "id": "d1e5",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 1,
+          "precio": 100000,
+          "total": 100000
+        }
+      ],
+      "totalPago": 100000
+    },
+    {
+      "id": "46cc",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 5,
+          "precio": 100000,
+          "total": 500000
+        }
+      ],
+      "totalPago": 500000
+    },
+    {
+      "id": "89b7",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 50,
+          "precio": 100000,
+          "total": 5000000
+        },
+        {
+          "codigo": "1003",
+          "descripcion": "Bolígrafos - Lapiceros Kilométrico Inkjoy Caja X 12- Negro",
+          "cantidad": 20,
+          "precio": 14900,
+          "total": 298000
+        },
+        {
+          "codigo": "1005",
+          "descripcion": "LAPIZ NEGRO N2 PAPER MATE DISPLAY X 12 UND",
+          "cantidad": 10,
+          "precio": 8000,
+          "total": 80000
+        }
+      ],
+      "totalPago": 5378000
+    },
+    {
+      "id": "9dcf",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 1,
+          "precio": 100000,
+          "total": 100000
+        }
+      ],
+      "totalPago": 100000
+    },
+    {
+      "id": "06be",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 1,
+          "precio": 100000,
+          "total": 100000
+        }
+      ],
+      "totalPago": 100000
+    },
+    {
+      "id": "8e58",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 1,
+          "precio": 100000,
+          "total": 100000
+        }
+      ],
+      "totalPago": 100000
+    },
+    {
+      "id": "478d",
+      "productos": [
+        {
+          "codigo": "1003",
+          "descripcion": "Bolígrafos - Lapiceros Kilométrico Inkjoy Caja X 12- Negro",
+          "cantidad": 2,
+          "precio": 14900,
+          "total": 29800
+        }
+      ],
+      "totalPago": 29800
+    },
+    {
+      "id": "bd5d",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 1,
+          "precio": 100000,
+          "total": 100000
+        }
+      ],
+      "totalPago": 100000
+    },
+    {
+      "id": "1a37",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 1,
+          "precio": 100000,
+          "total": 100000
+        }
+      ],
+      "totalPago": 100000
+    },
+    {
+      "id": "a065",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 1,
+          "precio": 100000,
+          "total": 100000
+        }
+      ],
+      "totalPago": 100000
+    },
+    {
+      "id": "54ed",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 1,
+          "precio": 100000,
+          "total": 100000
+        }
+      ],
+      "totalPago": 100000
     }
   ]
 }
