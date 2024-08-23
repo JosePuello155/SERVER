@@ -57,24 +57,32 @@
       "number": "3118549874",
       "addres": "bucaramanga",
       "email": "jhon@gmail.com"
+    },
+    {
+      "id": "9e45",
+      "document": "1840181591",
+      "name": "jose",
+      "number": "3115854185",
+      "addres": "Miami",
+      "email": "kareim@gmail.com"
     }
   ],
   "productos": [
     {
-      "id": "deb3",
       "codigo": "1001",
       "name": "CAJA DE LAPICEROS X12",
-      "stock": 93,
+      "stock": "93",
       "precio": "100000",
-      "proveedor": "5f4f"
+      "proveedor": "bb3f",
+      "id": "deb3"
     },
     {
-      "id": "2eec",
       "codigo": "1002",
       "name": "CAJA DE LAPICEROS X12 KORES",
-      "stock": 79,
+      "stock": "79",
       "precio": "100000",
-      "proveedor": "5f4f"
+      "proveedor": "ba7a",
+      "id": "2eec"
     },
     {
       "id": "aafc",
@@ -85,12 +93,12 @@
       "proveedor": "ba7a"
     },
     {
-      "id": "3b9d",
       "codigo": "1004",
       "name": "LAPIZ NEGRO PRESTO NO2 azul X 12 FABER",
       "stock": "50",
       "precio": "10650",
-      "proveedor": "5f4f"
+      "proveedor": "ba7a",
+      "id": "3b9d"
     },
     {
       "id": "e691",
@@ -125,6 +133,14 @@
       "number": "3185848796",
       "addres": "bucaramanga",
       "email": "eltwist@gmail.com"
+    },
+    {
+      "id": "7132",
+      "document": "8541781",
+      "name": "asdfa",
+      "number": "11",
+      "addres": "Piedecuesta",
+      "email": "adsd@gmail.com"
     }
   ],
   "pedidos": [
