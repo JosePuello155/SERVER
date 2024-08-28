@@ -37,14 +37,14 @@
       "email": "jhon@gmail.com"
     },
     {
-<<<<<<< HEAD
       "id": "9e45",
       "document": "1840181591",
       "name": "jose",
       "number": "3115854185",
       "addres": "Miami",
       "email": "kareim@gmail.com"
-=======
+    },
+{
       "id": "6fe3",
       "document": "1096089687",
       "name": "Samuel",
@@ -74,17 +74,12 @@
     {
       "codigo": "1001",
       "name": "CAJA DE LAPICEROS X12",
-<<<<<<< HEAD
       "stock": "93",
-=======
-      "stock": 36,
->>>>>>> 79afdd52021a0ad8bac89623a16ece22f99f16ec
       "precio": "100000",
       "proveedor": "bb3f",
       "id": "deb3"
     },
     {
-<<<<<<< HEAD
       "codigo": "1002",
       "name": "CAJA DE LAPICEROS X12 KORES",
       "stock": "79",
@@ -94,8 +89,6 @@
     },
     {
       "id": "aafc",
-=======
->>>>>>> 79afdd52021a0ad8bac89623a16ece22f99f16ec
       "codigo": "1003",
       "name": "Bolígrafos - Lapiceros Kilométrico Inkjoy Caja X 12- Negro",
       "stock": 48,
@@ -104,7 +97,6 @@
       "id": "aafc"
     },
     {
-<<<<<<< HEAD
       "codigo": "1004",
       "name": "LAPIZ NEGRO PRESTO NO2 azul X 12 FABER",
       "stock": "50",
@@ -114,8 +106,6 @@
     },
     {
       "id": "e691",
-=======
->>>>>>> 79afdd52021a0ad8bac89623a16ece22f99f16ec
       "codigo": "1005",
       "name": "LAPIZ NEGRO N2 PAPER MATE DISPLAY X 12 UND",
       "stock": "50",
@@ -158,21 +148,21 @@
       "email": "eltwist@gmail.com"
     },
     {
-<<<<<<< HEAD
+{
       "id": "7132",
       "document": "8541781",
       "name": "asdfa",
       "number": "11",
       "addres": "Piedecuesta",
       "email": "adsd@gmail.com"
-=======
+    },
+{
       "document": "4815792",
       "name": "La mayorista",
       "number": "3188148151",
       "addres": "Girón",
       "email": "lamayorista@gmail.com",
       "id": "c670"
->>>>>>> 79afdd52021a0ad8bac89623a16ece22f99f16ec
     }
   ],
   "pedidos": [
