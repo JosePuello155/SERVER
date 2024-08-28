@@ -44,7 +44,7 @@
       "addres": "Miami",
       "email": "kareim@gmail.com"
     },
-{
+    {
       "id": "6fe3",
       "document": "1096089687",
       "name": "Samuel",
@@ -73,7 +73,7 @@
     {
       "codigo": "1001",
       "name": "CAJA DE LAPICEROS X12",
-      "stock": "93",
+      "stock": 89,
       "precio": "100000",
       "proveedor": "bb3f",
       "id": "deb3"
@@ -81,13 +81,12 @@
     {
       "codigo": "1002",
       "name": "CAJA DE LAPICEROS X12 KORES",
-      "stock": "79",
+      "stock": 74,
       "precio": "100000",
       "proveedor": "ba7a",
       "id": "2eec"
     },
     {
-      
       "codigo": "1003",
       "name": "Bolígrafos - Lapiceros Kilométrico Inkjoy Caja X 12- Negro",
       "stock": 48,
@@ -110,7 +109,6 @@
       "stock": "50",
       "precio": "8000",
       "proveedor": "bb3f"
-     
     },
     {
       "id": "6d6a",
@@ -146,8 +144,7 @@
       "addres": "bucaramanga",
       "email": "eltwist@gmail.com"
     },
-    
-{
+    {
       "id": "7132",
       "document": "8541781",
       "name": "asdfa",
@@ -155,7 +152,7 @@
       "addres": "Piedecuesta",
       "email": "adsd@gmail.com"
     },
-{
+    {
       "document": "4815792",
       "name": "La mayorista",
       "number": "3188148151",
@@ -433,49 +430,37 @@
           "precio": 14900
         }
       ]
+    },
+    {
+      "id": "e4fa",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 2,
+          "precio": 100000
+        }
+      ]
+    },
+    {
+      "id": "1c6b",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 2,
+          "precio": 100000
+        },
+        {
+          "codigo": "1002",
+          "descripcion": "CAJA DE LAPICEROS X12 KORES",
+          "cantidad": 5,
+          "precio": 100000
+        }
+      ]
     }
   ],
   "ventas": [
-    {
-      "id": "cbdb",
-      "productos": [
-        {
-          "codigo": "1001",
-          "descripcion": "undefined",
-          "cantidad": 1,
-          "precio": 100000,
-          "total": 100000
-        },
-        {
-          "codigo": "1002",
-          "descripcion": "undefined",
-          "cantidad": 1,
-          "precio": 100000,
-          "total": 100000
-        }
-      ],
-      "totalPago": 200000
-    },
-    {
-      "id": "8fa1",
-      "productos": [
-        {
-          "codigo": "1001",
-          "descripcion": "undefined",
-          "cantidad": 5,
-          "precio": 100000,
-          "total": 500000
-        },
-        {
-          "codigo": "1002",
-          "descripcion": "undefined",
-          "cantidad": 20,
-          "precio": 100000,
-          "total": 2000000
-        }
-      ],
-      "totalPago": 2500000
-    },
     {
       "id": "d0b4",
       "productos": [
@@ -742,6 +727,34 @@
           "descripcion": "Bolígrafos - Lapiceros Kilométrico Inkjoy Caja X 12- Negro",
           "cantidad": 2,
           "precio": 14900
+        }
+      ]
+    },
+    {
+      "id": "8930",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 2,
+          "precio": 100000
+        }
+      ]
+    },
+    {
+      "id": "4836",
+      "productos": [
+        {
+          "codigo": "1001",
+          "descripcion": "CAJA DE LAPICEROS X12",
+          "cantidad": 2,
+          "precio": 100000
+        },
+        {
+          "codigo": "1002",
+          "descripcion": "CAJA DE LAPICEROS X12 KORES",
+          "cantidad": 5,
+          "precio": 100000
         }
       ]
     }
