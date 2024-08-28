@@ -87,7 +87,7 @@
       "id": "2eec"
     },
     {
-      "id": "aafc",
+      
       "codigo": "1003",
       "name": "Bolígrafos - Lapiceros Kilométrico Inkjoy Caja X 12- Negro",
       "stock": 48,
@@ -109,8 +109,8 @@
       "name": "LAPIZ NEGRO N2 PAPER MATE DISPLAY X 12 UND",
       "stock": "50",
       "precio": "8000",
-      "proveedor": "bb3f",
-      "id": "e691"
+      "proveedor": "bb3f"
+     
     },
     {
       "id": "6d6a",
@@ -146,7 +146,7 @@
       "addres": "bucaramanga",
       "email": "eltwist@gmail.com"
     },
-    {
+    
 {
       "id": "7132",
       "document": "8541781",
